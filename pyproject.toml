@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pystanli"
+version = "0.1.0"
+description = "Python wrapper for TikZ Structural Analysis library using PyLaTeX"
+authors = ["Alan J. Ferguson <alan@ferguson.info>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/alanjferguson/pystanli"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pylatex = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
